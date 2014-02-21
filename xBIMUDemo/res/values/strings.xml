@@ -28,5 +28,10 @@
     <string name="title_connected_to">Connected: </string>
     <string name="title_not_connected">Not connected</string>
     <string name="title_activity_terminal_tabs">TerminalTabs</string>
+    <string name="battery_level">Battery Level (mV)</string>
+    <string name="quaternion">Quaternion (wxyz)</string>
+    <string name="gyroscope">Gyroscope (0.1 °/s)</string>
+    <string name="accelerometer">Accelerometer (mg)</string>
+    <string name="magnetometer">Magnetometer (mGa)</string>
     
 </resources>

@@ -26,13 +26,13 @@ public final class R {
     public static final class id {
         public static final int Accelerometer=0x7f08000c;
         public static final int AccelerometerLabel=0x7f08000b;
-        public static final int BatteryLevel=0x7f080007;
+        public static final int BatteryLevel=0x7f080009;
         public static final int BatteryLevelLabel=0x7f080005;
         public static final int Gyroscope=0x7f08000a;
-        public static final int GyroscopeLabel=0x7f080008;
+        public static final int GyroscopeLabel=0x7f080007;
         public static final int Magnetometer=0x7f08000e;
         public static final int MagnetometerLabel=0x7f08000d;
-        public static final int Quaternion=0x7f080009;
+        public static final int Quaternion=0x7f080008;
         public static final int QuaternionLabel=0x7f080006;
         public static final int button_scan=0x7f080004;
         public static final int connect=0x7f080011;
@@ -53,6 +53,7 @@ public final class R {
         public static final int options_menu=0x7f070000;
     }
     public static final class string {
+        public static final int accelerometer=0x7f05001b;
         public static final int action_settings=0x7f050001;
         public static final int alert_dialog_no=0x7f05000f;
         public static final int alert_dialog_no_bt=0x7f05000d;
@@ -61,13 +62,17 @@ public final class R {
         public static final int alert_dialog_warning_title=0x7f050010;
         public static final int alert_dialog_yes=0x7f05000e;
         public static final int app_name=0x7f050000;
+        public static final int battery_level=0x7f050018;
         public static final int button_scan=0x7f05000c;
         public static final int connect=0x7f050003;
         public static final int disconnect=0x7f050004;
+        public static final int gyroscope=0x7f05001a;
         public static final int hello_world=0x7f050002;
+        public static final int magnetometer=0x7f05001c;
         public static final int none_found=0x7f050009;
         public static final int none_paired=0x7f050008;
         public static final int not_connected=0x7f050013;
+        public static final int quaternion=0x7f050019;
         /**  DeviceListActivity 
          */
         public static final int scanning=0x7f050006;

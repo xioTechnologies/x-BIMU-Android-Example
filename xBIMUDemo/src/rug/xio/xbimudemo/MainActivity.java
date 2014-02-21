@@ -110,19 +110,13 @@ public class MainActivity extends Activity implements SerialMessageHandler, Seri
 				break;
 			case SerialDecoder.MESSAGE_Error:				
 				break;
-			case SerialDecoder.PACKET_Battery:
-				
+			case SerialDecoder.PACKET_Battery:	
 				values = (int[])msg.obj;
 				
-				int battery = values[0];
+				mBatteryLevel.setText(Integer.toString(values[0]));	// setText(int) does not do what you think!
 				
-				float percent = ((float)battery / 3800.0f) * 100.0f; // ? 
-				
-				mBatteryLevel.setText(percent + "%"); 
-
 				break;
 			case SerialDecoder.PACKET_Quaternion:
-
 				values = (int[])msg.obj;
 				
 				mQuaternion.setText(values[0] + ", " + values[1] + ", " + values[2] + ", " + values[3]);
