@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xBIMU Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="connect">Connect device</string>
+    <string name="disconnect">Disconnect device</string>
+    <string name="title_activity_device_list">DeviceListActivity</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="alert_dialog_no_bt">Cannot use this application without bluetooth.</string>
+    <string name="alert_dialog_yes">Yes</string>
+    <string name="alert_dialog_no">No</string>
+    <string name="alert_dialog_warning_title">Warning</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_turn_on_bt">This application needs the Bluetooth. Do you want turn on?</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="title_activity_terminal_tabs">TerminalTabs</string>
+    
+</resources>
